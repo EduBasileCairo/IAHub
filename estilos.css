@@ -1,7 +1,11 @@
-ul {
+li {
     background-color: aqua;
 }
 
 h1 {
     background-color: blue;
+}
+
+ul {
+    background-color: chartreuse;
 }
