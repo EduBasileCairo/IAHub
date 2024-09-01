@@ -51,3 +51,6 @@ var numero2 = 3;
 var cubo = Math.pow(numero2, 3);
 console.log("Cubo de " + numero2 + ": " + cubo);
 
+// Agregado
+
+document.getElementById("demo").innerHTML = 5 + 6;
