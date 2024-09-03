@@ -54,3 +54,14 @@ console.log("Cubo de " + numero2 + ": " + cubo);
 // Agregado
 
 document.getElementById("demo").innerHTML = 5 + 6;
+
+// Programa que pide al usuario dos valores de un triángulo (base y altura) 
+// y calcule el área de dicho triángulo.
+
+
+var base = Number(prompt("Introduzca la base: "));
+var altura = parseInt(prompt("Introduzca la altura: "));
+
+var area = (base*altura)/2;
+
+alert("El área de un triángulo con base = " + base + " y altura = " + altura + " es " + area);
