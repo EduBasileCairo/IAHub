@@ -180,6 +180,20 @@
             <p id="demo"></p>
         </div>
     </div>
+    <h2>Calcule la superficie de un triángulo</h2>
+
+    <form id="calculo-form">
+        <label for="base">Introduzca la medida de la base en centímetros:</label><br>
+        <input type="number" id="base" name="base" required><br>
+        <label for="altura">Introduzca la medida de la altura en centímetros:</label><br>
+        <input type="number" id="altura" name="altura" required><br><br>
+        <output name="área" for="base * altura"></output>
+        <input type="button" value="Calcular" onclick="calcularArea ()">
+    </form>
+    <p>El área del triángulo es: <output id="resultado"></output>cm2 </p>
+
+
+    <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
 
 </body>
 

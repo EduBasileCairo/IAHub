@@ -65,3 +65,18 @@ var altura = parseInt(prompt("Introduzca la altura: "));
 var area = (base*altura)/2;
 
 alert("El área de un triángulo con base = " + base + " y altura = " + altura + " es " + area);
+
+// Programa que pide al usuario dos valores de un triángulo (base y altura) 
+// y calcule el área de dicho triángulo.
+
+function calcularArea () {
+var base = parseFloat(document.getElementById("base").value);
+var altura = parseFloat(document.getElementById("altura").value);
+if (isNaN(base) || isNaN(altura)) {
+    alert("Por favor, introduce valores válidos para la base y la altura.");
+    return;
+}
+var area = (base*altura)/2;
+
+document.getElementById("resultado").textContent = area.toFixed(2);
+}
