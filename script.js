@@ -80,3 +80,18 @@ var area = (base*altura)/2;
 
 document.getElementById("resultado").textContent = area.toFixed(2);
 }
+
+// Programa que pide al usuario dos valores de un rectángulo (ancho y largo) 
+// y calcule el área de dicho rectángulo.
+
+function calcularArea () {
+    var largo = parseFloat(document.getElementById("largo").value);
+    var ancho = parseFloat(document.getElementById("ancho").value);
+    if (isNaN(largo) || isNaN(ancho)) {
+        alert("Por favor, introduce valores válidos para la base y la ancho.");
+        return;
+    }
+    var area = (largo*ancho);
+    
+    document.getElementById("resultado").textContent = area.toFixed(2);
+    }
